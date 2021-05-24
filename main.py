@@ -82,7 +82,7 @@ def two_message(update, context):
 def three_message(update, context):
     text = str(update.message.text).lower()
     response = qna.three_response(text)
-    s = "Where is location 3? HINT: Best Mala in NUS"
+    s = "Where is location 3? HINT: Best Mala!!"
 
     if response == "Wrong! Please try again.":
         if done[2] == False:
