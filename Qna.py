@@ -43,8 +43,8 @@ def four_response(input_text):
     #print(user_message)
     user_message = user_message.replace(" ","")
     print (user_message)
-    if user_message == "sde2er1" :
-        return "Correct! Location 4 is SDE2 ER1. And that's the location for Station 3!"
+    if user_message == "sde2" :
+        return "Correct! Location 4 is SDE2. And that's the location for Station 3!"
 
     else:
         return w
